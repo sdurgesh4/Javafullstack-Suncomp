@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Python Full Stack Developer Program</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+body{font-family:Arial,sans-serif;background:#f7f8fc;color:#212529}
+.navbar{background:#111827}.navbar-brand{font-weight:700;font-size:22px}.navbar-brand span{color:#f59e0b}
+.nav-link{color:#ddd!important}.nav-link:hover{color:#f59e0b!important}
+.hero{background:linear-gradient(135deg,#111827,#1e3a8a);color:white;padding:100px 20px 90px}
+.hero h1{font-size:52px;font-weight:800}.hero h1 span{color:#f59e0b}.hero p{font-size:19px;color:#dbeafe;max-width:780px}
+.hero-quote{border-left:4px solid #f59e0b;padding-left:18px;margin-top:25px;font-size:18px;font-style:italic;color:#fef3c7}
+.btn-main{background:#f59e0b;color:#111827;font-weight:700;padding:13px 28px;border-radius:8px;border:none}.btn-main:hover{background:#d97706;color:white}
+.course-info{margin-top:-45px;position:relative;z-index:5}.info-card{background:white;border-radius:15px;padding:25px;box-shadow:0 10px 35px rgba(0,0,0,.08);text-align:center;height:100%}
+.info-card i{font-size:30px;color:#2563eb}.info-card h4{margin-top:10px;font-weight:700}.info-card p{margin:0;color:#666}
+.section{padding:80px 0}.section-title{font-weight:800;font-size:36px;margin-bottom:10px}.section-subtitle{color:#6b7280;margin-bottom:45px}
+.level-card{background:white;border:none;border-radius:16px;overflow:hidden;height:100%;box-shadow:0 5px 20px rgba(0,0,0,.06);transition:.3s}.level-card:hover{transform:translateY(-7px);box-shadow:0 15px 35px rgba(0,0,0,.12)}
+.level-header{padding:25px;color:white}.level-1{background:linear-gradient(135deg,#2563eb,#1d4ed8)}.level-2{background:linear-gradient(135deg,#059669,#047857)}.level-3{background:linear-gradient(135deg,#7c3aed,#6d28d9)}
+.level-4{background:linear-gradient(135deg,#ea580c,#c2410c)}.level-5{background:linear-gradient(135deg,#0891b2,#0e7490)}.level-6{background:linear-gradient(135deg,#dc2626,#b91c1c)}
+.level-7{background:linear-gradient(135deg,#374151,#111827)}.level-8{background:linear-gradient(135deg,#9333ea,#7e22ce)}.level-9{background:linear-gradient(135deg,#be123c,#881337)}
+.level-number{font-size:14px;font-weight:700;text-transform:uppercase;opacity:.9}.level-header h3{margin-top:7px;font-weight:800}.level-body{padding:25px}
+.level-meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:15px}.badge-custom{background:#eef2ff;color:#3730a3;padding:7px 10px;border-radius:20px;font-size:13px}
+.project-box{background:#f8fafc;border-left:4px solid #2563eb;padding:12px 15px;margin-top:15px;border-radius:5px}
+.accordion-button{font-weight:700;background:#fff}.accordion-button:not(.collapsed){color:#1d4ed8;background:#eff6ff;box-shadow:none}.accordion-button:focus{box-shadow:none}
+.topic-list{padding-left:20px}.topic-list li{margin-bottom:7px}.project-section{background:#111827;color:white}.project-box-dark{background:#1f2937;border-radius:15px;padding:25px;height:100%}
+.project-box-dark i{font-size:35px;color:#f59e0b}.project-box-dark h4{margin-top:15px}.evaluation-table{background:white;border-radius:15px;overflow:hidden;box-shadow:0 5px 25px rgba(0,0,0,.07)}
+.evaluation-table th{background:#111827;color:white}.cta{background:linear-gradient(135deg,#1d4ed8,#111827);color:white;padding:80px 20px}.cta h2{font-size:40px;font-weight:800}
+footer{background:#030712;color:#9ca3af;padding:35px 0}footer strong{color:white}
+@media(max-width:768px){.hero{padding:70px 20px}.hero h1{font-size:36px}.hero p{font-size:16px}.section{padding:60px 0}.section-title{font-size:30px}.cta h2{font-size:30px}}
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top"><div class="container">
+<a class="navbar-brand" href="#">Sun Computer <span> Institute</span></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+    <span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="navbarMenu">
+    <ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Java</a></li>
+<li class="nav-item"><a class="nav-link" href="mern.html">MERN</a></li>
+<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+<li class="nav-item ms-lg-3"><a class="btn btn-warning fw-bold" href="#enroll">Enroll Now</a></li>
+</ul></div></div></nav>
+
+<section class="hero"><div class="container"><div class="row align-items-center"><div class="col-lg-8">
+<span class="badge bg-warning text-dark mb-3 px-3 py-2">130 DAYS • 260 HOURS • PROJECT BASED</span>
+<h1>Become a <span>Python Full Stack</span> Developer</h1>
+<p class="mt-3">Learn Python from programming fundamentals to Django, REST APIs, frontend integration, GitHub, Docker and live deployment.</p>
+<div class="hero-quote">"Don't learn Python to write programs. Learn Python to build products people can use."</div>
+<div class="mt-4"><a href="#levels" class="btn btn-main me-2">Explore Course</a><a href="#enroll" class="btn btn-outline-light">Join Now</a></div>
+</div></div></div></section>
+
+<section class="course-info"><div class="container"><div class="row g-4">
+<div class="col-md-3"><div class="info-card"><i class="bi bi-calendar3"></i><h4>130 Days</h4><p>Structured Learning</p></div></div>
+<div class="col-md-3"><div class="info-card"><i class="bi bi-clock"></i><h4>260 Hours</h4><p>Hands-on Training</p></div></div>
+<div class="col-md-3"><div class="info-card"><i class="bi bi-kanban"></i><h4>9 Levels</h4><p>Project Based Learning</p></div></div>
+<div class="col-md-3"><div class="info-card"><i class="bi bi-currency-rupee"></i><h4>₹24,999</h4><p>Early Bird Fee</p></div></div>
+</div></div></section>
+
+<section class="section" id="levels"><div class="container">
+<div class="text-center"><h2 class="section-title">Your Journey From Python Beginner to Developer</h2><p class="section-subtitle">Complete every level, build the project and prove your skills.</p></div>
+<div class="row g-4">
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-1"><div class="level-number">Level 01</div><h3>Python Programming</h3><p class="mb-0">Build your programming foundation.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">20 Days</span><span class="badge-custom">40 Hours</span><span class="badge-custom">Project Required</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l1">View Level Details</button></h2><div id="l1" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>Python syntax, variables and data types</li><li>Input, output and type conversion</li><li>Operators, conditions and loops</li><li>Lists, tuples, sets and dictionaries</li><li>Strings and string methods</li><li>Functions, arguments and return values</li><li>Lambda functions and comprehensions</li><li>Modules and packages</li></ul><div class="project-box"><strong>Project:</strong> Student Expense Tracker</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-2"><div class="level-number">Level 02</div><h3>Advanced Python + OOP</h3><p class="mb-0">Write structured and reusable Python programs.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">15 Days</span><span class="badge-custom">30 Hours</span><span class="badge-custom">Project Required</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l2">View Level Details</button></h2><div id="l2" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>Classes, objects, constructors and methods</li><li>Encapsulation, inheritance, polymorphism and abstraction</li><li>Exception handling and custom exceptions</li><li>File handling, CSV and JSON</li><li>Iterators and generators</li><li>Decorators</li><li>map(), filter(), reduce(), zip() and enumerate()</li></ul><div class="project-box"><strong>Project:</strong> Banking Management System</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-3"><div class="level-number">Level 03</div><h3>SQL + MySQL</h3><p class="mb-0">Build strong relational database skills.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">12 Days</span><span class="badge-custom">24 Hours</span><span class="badge-custom">Project Required</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l3">View Level Details</button></h2><div id="l3" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>Database, DBMS and RDBMS fundamentals</li><li>Tables, keys and constraints</li><li>DDL and DML</li><li>SELECT, WHERE and ORDER BY</li><li>Aggregate functions</li><li>GROUP BY and HAVING</li><li>Joins and subqueries</li><li>Normalization and indexes</li><li>Transactions</li></ul><div class="project-box"><strong>Project:</strong> E-Commerce Database</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-4"><div class="level-number">Level 04</div><h3>HTML + CSS + JavaScript</h3><p class="mb-0">Build responsive and interactive web interfaces.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">18 Days</span><span class="badge-custom">36 Hours</span><span class="badge-custom">Project Required</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l4">View Level Details</button></h2><div id="l4" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>HTML5 and semantic HTML</li><li>Forms and validation</li><li>CSS selectors and box model</li><li>Flexbox and Grid</li><li>Responsive design and media queries</li><li>Bootstrap components and grid</li><li>JavaScript fundamentals</li><li>DOM and events</li><li>Fetch API and JSON</li></ul><div class="project-box"><strong>Project:</strong> Student Management Dashboard</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-5"><div class="level-number">Level 05</div><h3>Django</h3><p class="mb-0">Build database-driven Python web applications.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">20 Days</span><span class="badge-custom">40 Hours</span><span class="badge-custom">Project Required</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l5">View Level Details</button></h2><div id="l5" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>Django architecture and project setup</li><li>Apps, URLs, views and templates</li><li>Template inheritance</li><li>Forms and Model Forms</li><li>CSRF and validation</li><li>Models, migrations and QuerySets</li><li>CRUD operations and relationships</li><li>Authentication, sessions and permissions</li><li>Middleware, pagination and file uploads</li></ul><div class="project-box"><strong>Project:</strong> Online Course Management System</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-6"><div class="level-number">Level 06</div><h3>Django REST Framework</h3><p class="mb-0">Build professional REST APIs.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">15 Days</span><span class="badge-custom">30 Hours</span><span class="badge-custom">Major Project</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l6">View Level Details</button></h2><div id="l6" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>REST architecture and HTTP</li><li>JSON and status codes</li><li>Serializers</li><li>Function-based and class-based API views</li><li>ViewSets and Routers</li><li>CRUD APIs</li><li>Validation, pagination and filtering</li><li>Token and JWT authentication</li><li>Postman and Swagger/OpenAPI</li></ul><div class="project-box"><strong>Major Project:</strong> E-Commerce REST API</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-7"><div class="level-number">Level 07</div><h3>Full Stack Integration</h3><p class="mb-0">Connect frontend, Django and database.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">12 Days</span><span class="badge-custom">24 Hours</span><span class="badge-custom">Major Project</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l7">View Level Details</button></h2><div id="l7" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>Frontend and Django API integration</li><li>Fetch API and JSON</li><li>Authentication flow and JWT</li><li>CRUD integration</li><li>Frontend and backend validation</li><li>CORS</li><li>Error handling and loading states</li></ul><div class="project-box"><strong>Project:</strong> Full Stack E-Commerce Application</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-8"><div class="level-number">Level 08</div><h3>GitHub + Docker</h3><p class="mb-0">Work with professional development tools.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">8 Days</span><span class="badge-custom">16 Hours</span><span class="badge-custom">Deployment Ready</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l8">View Level Details</button></h2><div id="l8" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>Git and GitHub fundamentals</li><li>Repository, commit, push and pull</li><li>Branches and merge</li><li>.gitignore and README</li><li>GitHub portfolio</li><li>Docker images and containers</li><li>Dockerfile and Docker Compose</li><li>Ports, volumes and environment variables</li><li>Django + MySQL containerization</li></ul><div class="project-box"><strong>Project:</strong> Containerize and publish the Full Stack application</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-9"><div class="level-number">Level 09</div><h3>Deployment + Final Capstone</h3><p class="mb-0">Deploy and demonstrate a production-style application.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">10 Days</span><span class="badge-custom">20 Hours</span><span class="badge-custom">Final Project</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l9">View Level Details</button></h2><div id="l9" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>Production configuration</li><li>Environment variables and secrets</li><li>Database configuration</li><li>Static and media files</li><li>Application logs and debugging</li><li>Cloud deployment</li><li>Final application testing</li></ul><div class="project-box"><strong>Final Project:</strong> E-Commerce, Job Portal, LMS, Coupon Marketplace or Inventory System</div></div></div></div></div></div></div></div>
+
+</div></div></section>
+
+<section class="section project-section" id="projects"><div class="container">
+<div class="text-center mb-5"><h2 class="section-title">Learn → Build → Present → Progress</h2><p class="text-light">Every major level ends with a practical project and developer challenge.</p></div>
+<div class="row g-4">
+<div class="col-md-3"><div class="project-box-dark"><i class="bi bi-code-slash"></i><h4>Build</h4><p>Apply concepts by building a working project.</p></div></div>
+<div class="col-md-3"><div class="project-box-dark"><i class="bi bi-person-video3"></i><h4>Present</h4><p>Demonstrate your project and explain your implementation.</p></div></div>
+<div class="col-md-3"><div class="project-box-dark"><i class="bi bi-bug"></i><h4>Debug</h4><p>Find and fix an unfamiliar coding or application problem.</p></div></div>
+<div class="col-md-3"><div class="project-box-dark"><i class="bi bi-arrow-up-circle"></i><h4>Progress</h4><p>Score 60% or more and demonstrate minimum competency.</p></div></div>
+</div></div></section>
+
+<section class="section" id="evaluation"><div class="container">
+<div class="text-center"><h2 class="section-title">Every Level Has a Performance Gate</h2><p class="section-subtitle">Completing lectures is not enough. Students must demonstrate the skill.</p></div>
+<div class="evaluation-table"><div class="table-responsive"><table class="table table-hover mb-0"><thead><tr><th>Evaluation</th><th>Marks</th></tr></thead><tbody>
+<tr><td>Coding Challenge</td><td>20</td></tr><tr><td>Practical Project</td><td>30</td></tr><tr><td>Code Review</td><td>10</td></tr><tr><td>Live Presentation</td><td>15</td></tr><tr><td>Technical Viva</td><td>15</td></tr><tr><td>Debugging Challenge</td><td>10</td></tr><tr class="fw-bold"><td>Total</td><td>100</td></tr>
+</tbody></table></div></div>
+<div class="text-center mt-4"><span class="badge bg-success fs-6 p-3">60 / 100 = LEVEL PASSED</span><p class="mt-3 text-muted">Minimum competency is also required in coding, project and viva.</p></div>
+</div></section>
+
+<section class="section bg-light"><div class="container"><div class="row align-items-center">
+<div class="col-lg-7"><span class="badge bg-primary mb-3">FINAL CAPSTONE</span><h2 class="section-title">Build a Production-Style Python Application</h2>
+<p class="text-muted">Bring everything together into one complete application with frontend, Django backend, REST APIs, MySQL, authentication, GitHub, Docker and live deployment.</p>
+<div class="row mt-4"><div class="col-md-6"><ul class="topic-list"><li>HTML / CSS / Bootstrap</li><li>JavaScript</li><li>Python</li><li>Django</li><li>Django REST Framework</li></ul></div><div class="col-md-6"><ul class="topic-list"><li>MySQL</li><li>JWT Authentication</li><li>GitHub</li><li>Docker</li><li>Live Deployment</li></ul></div></div></div>
+<div class="col-lg-5"><div class="info-card"><i class="bi bi-rocket-takeoff"></i><h4>Final Outcome</h4><p class="mt-3">A live, portfolio-ready Python full stack application you can demonstrate in interviews.</p><hr><h5 class="fw-bold">Build it. Deploy it. Present it.</h5></div></div>
+</div></div></section>
+
+<section class="cta" id="enroll"><div class="container text-center">
+<span class="badge bg-warning text-dark px-3 py-2 mb-3">PYTHON FULL STACK DEVELOPER PROGRAM</span><h2>Your Python Journey Starts Here.</h2>
+<p class="lead mt-3">130 Days • 260 Hours • 9 Levels • Multiple Projects • Live Deployment</p>
+<div class="my-4"><span class="text-decoration-line-through text-light fs-5">₹29,999</span><span class="display-5 fw-bold text-warning ms-3">₹24,999</span></div>
+<p>Early Bird Fee</p><a href="#" class="btn btn-main btn-lg mt-2">Enroll Now</a>
+</div></section>
+
+<footer><div class="container"><div class="row">
+<div class="col-md-6"><strong>Python Full Stack Developer Program</strong><p class="mt-2 mb-0">Learn. Build. Present. Deploy.</p></div>
+<div class="col-md-6 text-md-end mt-3 mt-md-0"><p class="mb-0">130 Days | 260 Hours</p><p class="mb-0">Project-Based Learning</p></div>
+</div><hr>
+<div class="text-center"> © 2026 Sun Computer Institute - Grant road. All Rights Reserved.</div>
+</div></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(function(link){link.addEventListener('click',function(e){const target=document.querySelector(this.getAttribute('href'));if(target){e.preventDefault();target.scrollIntoView({behavior:"smooth"});}});});
+document.querySelectorAll('.navbar-nav .nav-link').forEach(function(link){link.addEventListener('click',function(){const menu=document.querySelector('.navbar-collapse');if(menu.classList.contains('show'))new bootstrap.Collapse(menu).hide();});});
+</script>
+</body>
+</html>

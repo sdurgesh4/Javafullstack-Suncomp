@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MERN Full Stack Developer Program</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<style>
+body{font-family:Arial,sans-serif;background:#f7f8fc;color:#212529}
+.navbar{background:#111827}.navbar-brand{font-weight:700;font-size:22px}.navbar-brand span{color:#22c55e}
+.nav-link{color:#ddd!important}.nav-link:hover{color:#22c55e!important}
+.hero{background:linear-gradient(135deg,#111827,#064e3b);color:white;padding:100px 20px 90px}
+.hero h1{font-size:52px;font-weight:800}.hero h1 span{color:#22c55e}
+.hero p{font-size:19px;color:#d1fae5;max-width:800px}
+.hero-quote{border-left:4px solid #22c55e;padding-left:18px;margin-top:25px;font-size:18px;font-style:italic;color:#dcfce7}
+.btn-main{background:#22c55e;color:#052e16;font-weight:700;padding:13px 28px;border-radius:8px;border:none}
+.btn-main:hover{background:#16a34a;color:white}
+.course-info{margin-top:-45px;position:relative;z-index:5}
+.info-card{background:white;border-radius:15px;padding:25px;box-shadow:0 10px 35px rgba(0,0,0,.08);text-align:center;height:100%}
+.info-card i{font-size:30px;color:#059669}.info-card h4{margin-top:10px;font-weight:700}.info-card p{margin:0;color:#666}
+.section{padding:80px 0}.section-title{font-weight:800;font-size:36px;margin-bottom:10px}.section-subtitle{color:#6b7280;margin-bottom:45px}
+.level-card{background:white;border:none;border-radius:16px;overflow:hidden;height:100%;box-shadow:0 5px 20px rgba(0,0,0,.06);transition:.3s}
+.level-card:hover{transform:translateY(-7px);box-shadow:0 15px 35px rgba(0,0,0,.12)}
+.level-header{padding:25px;color:white}
+.level-1{background:linear-gradient(135deg,#2563eb,#1d4ed8)}
+.level-2{background:linear-gradient(135deg,#059669,#047857)}
+.level-3{background:linear-gradient(135deg,#f59e0b,#d97706)}
+.level-4{background:linear-gradient(135deg,#7c3aed,#6d28d9)}
+.level-5{background:linear-gradient(135deg,#0891b2,#0e7490)}
+.level-6{background:linear-gradient(135deg,#dc2626,#b91c1c)}
+.level-7{background:linear-gradient(135deg,#374151,#111827)}
+.level-8{background:linear-gradient(135deg,#9333ea,#7e22ce)}
+.level-9{background:linear-gradient(135deg,#be123c,#881337)}
+.level-number{font-size:14px;font-weight:700;text-transform:uppercase;opacity:.9}
+.level-header h3{margin-top:7px;font-weight:800}.level-body{padding:25px}
+.level-meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:15px}
+.badge-custom{background:#ecfdf5;color:#047857;padding:7px 10px;border-radius:20px;font-size:13px}
+.project-box{background:#f8fafc;border-left:4px solid #059669;padding:12px 15px;margin-top:15px;border-radius:5px}
+.accordion-button{font-weight:700;background:#fff}.accordion-button:not(.collapsed){color:#047857;background:#ecfdf5;box-shadow:none}
+.accordion-button:focus{box-shadow:none}.topic-list{padding-left:20px}.topic-list li{margin-bottom:7px}
+.project-section{background:#111827;color:white}.project-box-dark{background:#1f2937;border-radius:15px;padding:25px;height:100%}
+.project-box-dark i{font-size:35px;color:#22c55e}.project-box-dark h4{margin-top:15px}
+.evaluation-table{background:white;border-radius:15px;overflow:hidden;box-shadow:0 5px 25px rgba(0,0,0,.07)}
+.evaluation-table th{background:#111827;color:white}
+.cta{background:linear-gradient(135deg,#047857,#111827);color:white;padding:80px 20px}.cta h2{font-size:40px;font-weight:800}
+footer{background:#030712;color:#9ca3af;padding:35px 0}footer strong{color:white}
+@media(max-width:768px){.hero{padding:70px 20px}.hero h1{font-size:36px}.hero p{font-size:16px}.section{padding:60px 0}.section-title{font-size:30px}.cta h2{font-size:30px}}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+<div class="container">
+<a class="navbar-brand" href="#">Sun Computer <span> Institute</span></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="navbarMenu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="python.html">Python</a></li>
+<li class="nav-item"><a class="nav-link" href="index.html">Java</a></li>
+<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+<li class="nav-item ms-lg-3"><a class="btn btn-success fw-bold" href="#enroll">Enroll Now</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<section class="hero">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-8">
+<span class="badge bg-success mb-3 px-3 py-2">140 DAYS • 280 HOURS • PROJECT BASED</span>
+<h1>Become a <span>MERN Full Stack</span> Developer</h1>
+<p class="mt-3">Learn JavaScript, React, Node.js, Express, MongoDB, REST APIs, authentication, GitHub, Docker and live deployment through project-based learning.</p>
+<div class="hero-quote">"Don't learn JavaScript to write code. Learn to build applications people can use."</div>
+<div class="mt-4"><a href="#levels" class="btn btn-main me-2">Explore Course</a><a href="#enroll" class="btn btn-outline-light">Join Now</a></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="course-info">
+<div class="container"><div class="row g-4">
+<div class="col-md-3"><div class="info-card"><i class="bi bi-calendar3"></i><h4>140 Days</h4><p>Structured Learning</p></div></div>
+<div class="col-md-3"><div class="info-card"><i class="bi bi-clock"></i><h4>280 Hours</h4><p>Hands-on Training</p></div></div>
+<div class="col-md-3"><div class="info-card"><i class="bi bi-kanban"></i><h4>9 Levels</h4><p>Project Based Learning</p></div></div>
+<div class="col-md-3"><div class="info-card"><i class="bi bi-currency-rupee"></i><h4>₹24,999</h4><p>Early Bird Fee</p></div></div>
+</div></div>
+</section>
+
+<section class="section" id="levels">
+<div class="container">
+<div class="text-center"><h2 class="section-title">Your Journey From JavaScript Beginner to MERN Developer</h2><p class="section-subtitle">Complete every level, build the project and prove your skills.</p></div>
+<div class="row g-4">
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-1"><div class="level-number">Level 01</div><h3>JavaScript Programming</h3><p class="mb-0">Build your programming foundation.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">18 Days</span><span class="badge-custom">36 Hours</span><span class="badge-custom">Project Required</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l1">View Level Details</button></h2><div id="l1" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>Variables, data types and operators</li><li>Conditions and loops</li><li>Arrays and objects</li><li>Functions and arrow functions</li><li>Scope and callbacks</li><li>Destructuring, spread and rest</li><li>Array methods: map, filter, reduce, find</li><li>DOM basics and browser events</li></ul><div class="project-box"><strong>Project:</strong> Expense Tracker</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-2"><div class="level-number">Level 02</div><h3>Advanced JavaScript + OOP</h3><p class="mb-0">Write modern and reusable JavaScript.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">15 Days</span><span class="badge-custom">30 Hours</span><span class="badge-custom">Project Required</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l2">View Level Details</button></h2><div id="l2" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>Classes and objects</li><li>Constructor and methods</li><li>Encapsulation, inheritance and polymorphism</li><li>Closures and higher-order functions</li><li>Promises</li><li>async and await</li><li>try/catch and error handling</li><li>fetch API and JSON</li><li>HTTP and REST fundamentals</li></ul><div class="project-box"><strong>Project:</strong> Weather / API Dashboard</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-3"><div class="level-number">Level 03</div><h3>MongoDB + Database Design</h3><p class="mb-0">Build and manage NoSQL databases.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">12 Days</span><span class="badge-custom">24 Hours</span><span class="badge-custom">Project Required</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l3">View Level Details</button></h2><div id="l3" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>MongoDB and NoSQL fundamentals</li><li>Databases, collections and documents</li><li>CRUD operations</li><li>Query and comparison operators</li><li>Sorting, filtering and projection</li><li>Embedded documents and references</li><li>Indexes</li><li>Aggregation pipeline</li><li>MongoDB Atlas</li></ul><div class="project-box"><strong>Project:</strong> Inventory Management Database</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-4"><div class="level-number">Level 04</div><h3>HTML + CSS + Bootstrap</h3><p class="mb-0">Build responsive professional interfaces.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">15 Days</span><span class="badge-custom">30 Hours</span><span class="badge-custom">Project Required</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l4">View Level Details</button></h2><div id="l4" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>HTML5 and semantic HTML</li><li>Forms and validation</li><li>CSS selectors and box model</li><li>Flexbox and Grid</li><li>Responsive design</li><li>Bootstrap grid and components</li><li>Cards, navbar, forms and modals</li><li>CSS transitions and basic animations</li><li>Frontend project structure</li></ul><div class="project-box"><strong>Project:</strong> Responsive Admin Dashboard</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-5"><div class="level-number">Level 05</div><h3>React.js</h3><p class="mb-0">Build modern component-based frontend applications.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">22 Days</span><span class="badge-custom">44 Hours</span><span class="badge-custom">Major Project</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l5">View Level Details</button></h2><div id="l5" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>React setup and project structure</li><li>JSX and components</li><li>Props and state</li><li>Events and conditional rendering</li><li>Lists and keys</li><li>useState, useEffect, useRef</li><li>Forms and validation</li><li>Context API</li><li>React Router and protected routes</li><li>Axios and API integration</li><li>Custom hooks and environment variables</li></ul><div class="project-box"><strong>Major Project:</strong> React E-Commerce Frontend</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-6"><div class="level-number">Level 06</div><h3>Node.js + Express.js</h3><p class="mb-0">Build scalable backend REST APIs.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">20 Days</span><span class="badge-custom">40 Hours</span><span class="badge-custom">Major Project</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l6">View Level Details</button></h2><div id="l6" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>Node.js runtime and npm</li><li>Modules and package.json</li><li>Express server setup</li><li>Routes, request and response</li><li>Middleware</li><li>REST API architecture</li><li>CRUD APIs</li><li>Controllers and services</li><li>Validation and error handling</li><li>Mongoose schemas and models</li><li>MongoDB integration</li></ul><div class="project-box"><strong>Major Project:</strong> E-Commerce REST API</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-7"><div class="level-number">Level 07</div><h3>MERN Full Stack Integration</h3><p class="mb-0">Connect React, Express, Node and MongoDB.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">15 Days</span><span class="badge-custom">30 Hours</span><span class="badge-custom">Major Project</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l7">View Level Details</button></h2><div id="l7" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>React + Express integration</li><li>Axios and API communication</li><li>CORS</li><li>JWT authentication</li><li>Password hashing with bcrypt</li><li>Protected APIs and routes</li><li>User and admin roles</li><li>Full CRUD integration</li><li>Loading and error states</li><li>Environment variables</li></ul><div class="project-box"><strong>Project:</strong> Complete MERN E-Commerce Application</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-8"><div class="level-number">Level 08</div><h3>GitHub + Authentication + Docker</h3><p class="mb-0">Work with professional development tools.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">10 Days</span><span class="badge-custom">20 Hours</span><span class="badge-custom">Deployment Ready</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l8">View Level Details</button></h2><div id="l8" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>Git basics and repository management</li><li>Commit, push, pull and clone</li><li>Branches and merge</li><li>.gitignore and README</li><li>GitHub portfolio and pull requests basics</li><li>JWT authentication flow</li><li>Docker images and containers</li><li>Dockerfile and Docker Compose</li><li>Ports and environment variables</li><li>Containerize MERN application</li></ul><div class="project-box"><strong>Project:</strong> GitHub + Dockerize the MERN Application</div></div></div></div></div></div></div></div>
+
+<div class="col-lg-6"><div class="level-card"><div class="level-header level-9"><div class="level-number">Level 09</div><h3>Deployment + Final Capstone</h3><p class="mb-0">Deploy and defend a production-style application.</p></div><div class="level-body"><div class="level-meta"><span class="badge-custom">13 Days</span><span class="badge-custom">26 Hours</span><span class="badge-custom">Final Project</span></div><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#l9">View Level Details</button></h2><div id="l9" class="accordion-collapse collapse"><div class="accordion-body"><ul class="topic-list"><li>Production build</li><li>Environment variables and secrets</li><li>MongoDB Atlas configuration</li><li>Frontend deployment</li><li>Backend deployment</li><li>CORS production configuration</li><li>Logs and production debugging</li><li>Final testing</li><li>Live application presentation</li></ul><div class="project-box"><strong>Final Project:</strong> E-Commerce, Job Portal, LMS, Event Platform or Inventory System</div></div></div></div></div></div></div></div>
+
+</div></div></section>
+
+<section class="section project-section" id="projects">
+<div class="container">
+<div class="text-center mb-5"><h2 class="section-title">Learn → Build → Present → Progress</h2><p class="text-light">Every major level ends with a practical project and developer challenge.</p></div>
+<div class="row g-4">
+<div class="col-md-3"><div class="project-box-dark"><i class="bi bi-code-slash"></i><h4>Build</h4><p>Apply concepts by building a working project.</p></div></div>
+<div class="col-md-3"><div class="project-box-dark"><i class="bi bi-person-video3"></i><h4>Present</h4><p>Demonstrate your project and explain your implementation.</p></div></div>
+<div class="col-md-3"><div class="project-box-dark"><i class="bi bi-bug"></i><h4>Debug</h4><p>Find and fix an unfamiliar coding or application problem.</p></div></div>
+<div class="col-md-3"><div class="project-box-dark"><i class="bi bi-arrow-up-circle"></i><h4>Progress</h4><p>Score 60% or more and demonstrate minimum competency.</p></div></div>
+</div></div></section>
+
+<section class="section" id="evaluation">
+<div class="container">
+<div class="text-center"><h2 class="section-title">Every Level Has a Performance Gate</h2><p class="section-subtitle">Completing lectures is not enough. Students must demonstrate the skill.</p></div>
+<div class="evaluation-table"><div class="table-responsive"><table class="table table-hover mb-0">
+<thead><tr><th>Evaluation</th><th>Marks</th></tr></thead>
+<tbody>
+<tr><td>Coding Challenge</td><td>20</td></tr>
+<tr><td>Practical Project</td><td>30</td></tr>
+<tr><td>Code Review</td><td>10</td></tr>
+<tr><td>Live Presentation</td><td>15</td></tr>
+<tr><td>Technical Viva</td><td>15</td></tr>
+<tr><td>Debugging Challenge</td><td>10</td></tr>
+<tr class="fw-bold"><td>Total</td><td>100</td></tr>
+</tbody></table></div></div>
+<div class="text-center mt-4"><span class="badge bg-success fs-6 p-3">60 / 100 = LEVEL PASSED</span><p class="mt-3 text-muted">Minimum competency is also required in coding, project and viva.</p></div>
+</div></section>
+
+<section class="section bg-light">
+<div class="container"><div class="row align-items-center">
+<div class="col-lg-7">
+<span class="badge bg-success mb-3">FINAL CAPSTONE</span>
+<h2 class="section-title">Build a Production-Style MERN Application</h2>
+<p class="text-muted">Bring everything together into one complete application with React frontend, Node.js and Express backend, MongoDB, authentication, GitHub, Docker and live deployment.</p>
+<div class="row mt-4">
+<div class="col-md-6"><ul class="topic-list"><li>HTML / CSS / Bootstrap</li><li>JavaScript</li><li>React.js</li><li>Node.js</li><li>Express.js</li></ul></div>
+<div class="col-md-6"><ul class="topic-list"><li>MongoDB</li><li>JWT Authentication</li><li>GitHub</li><li>Docker</li><li>Live Deployment</li></ul></div>
+</div>
+</div>
+<div class="col-lg-5"><div class="info-card"><i class="bi bi-rocket-takeoff"></i><h4>Final Outcome</h4><p class="mt-3">A live, portfolio-ready MERN full stack application you can demonstrate in interviews.</p><hr><h5 class="fw-bold">Build it. Deploy it. Present it.</h5></div></div>
+</div></div></section>
+
+<section class="cta" id="enroll">
+<div class="container text-center">
+<span class="badge bg-success px-3 py-2 mb-3">MERN FULL STACK DEVELOPER PROGRAM</span>
+<h2>Your MERN Journey Starts Here.</h2>
+<p class="lead mt-3">140 Days • 280 Hours • 9 Levels • Multiple Projects • Live Deployment</p>
+<div class="my-4"><span class="text-decoration-line-through text-light fs-5">₹29,999</span><span class="display-5 fw-bold text-success ms-3">₹24,999</span></div>
+<p>Early Bird Fee</p>
+<a href="#" class="btn btn-main btn-lg mt-2">Enroll Now</a>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-md-6"><strong>MERN Full Stack Developer Program</strong><p class="mt-2 mb-0">Learn. Build. Present. Deploy.</p></div>
+<div class="col-md-6 text-md-end mt-3 mt-md-0"><p class="mb-0">140 Days | 280 Hours</p><p class="mb-0">Project-Based Learning</p></div>
+</div>
+<hr>
+<div class="text-center"> © 2026 Sun Computer Institute - Grant road. All Rights Reserved.</div>
+</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(function(link){
+link.addEventListener('click',function(e){
+const target=document.querySelector(this.getAttribute('href'));
+if(target){e.preventDefault();target.scrollIntoView({behavior:"smooth"});}
+});
+});
+document.querySelectorAll('.navbar-nav .nav-link').forEach(function(link){
+link.addEventListener('click',function(){
+const menu=document.querySelector('.navbar-collapse');
+if(menu.classList.contains('show'))new bootstrap.Collapse(menu).hide();
+});
+});
+</script>
+</body>
+</html>
