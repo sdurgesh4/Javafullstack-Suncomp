@@ -8,42 +8,46 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <style>
 body{font-family:Arial,sans-serif;background:#f7f8fc;color:#212529}
-.navbar{background:#111827}.navbar-brand{font-weight:700;font-size:22px}.navbar-brand span{color:#f59e0b}
-.nav-link{color:#ddd!important}.nav-link:hover{color:#f59e0b!important}
-.hero{background:linear-gradient(135deg,#111827,#1e3a8a);color:white;padding:100px 20px 90px}
-.hero h1{font-size:52px;font-weight:800}.hero h1 span{color:#f59e0b}.hero p{font-size:19px;color:#dbeafe;max-width:780px}
+.navbar{background:#111827}.navbar-brand{font-weight:700;font-size:22px}.navbar-brand span{color:#facc15}
+.nav-link{color:#ddd!important}.nav-link:hover{color:#facc15!important}
+.hero{background:linear-gradient(135deg,#075985,#0ea5e9);color:white;padding:100px 20px 90px}
+.hero h1{font-size:52px;font-weight:800}.hero h1 span{color:#facc15}.hero p{font-size:19px;color:#dbeafe;max-width:780px}
 .hero-quote{border-left:4px solid #f59e0b;padding-left:18px;margin-top:25px;font-size:18px;font-style:italic;color:#fef3c7}
-.btn-main{background:#f59e0b;color:#111827;font-weight:700;padding:13px 28px;border-radius:8px;border:none}.btn-main:hover{background:#d97706;color:white}
+.btn-main{background:#facc15;color:#082f49;font-weight:700;padding:13px 28px;border-radius:8px;border:none}.btn-main:hover{background:#eab308;color:white}
 .course-info{margin-top:-45px;position:relative;z-index:5}.info-card{background:white;border-radius:15px;padding:25px;box-shadow:0 10px 35px rgba(0,0,0,.08);text-align:center;height:100%}
-.info-card i{font-size:30px;color:#2563eb}.info-card h4{margin-top:10px;font-weight:700}.info-card p{margin:0;color:#666}
+.info-card i{font-size:30px;color:#0ea5e9}.info-card h4{margin-top:10px;font-weight:700}.info-card p{margin:0;color:#666}
 .section{padding:80px 0}.section-title{font-weight:800;font-size:36px;margin-bottom:10px}.section-subtitle{color:#6b7280;margin-bottom:45px}
 .level-card{background:white;border:none;border-radius:16px;overflow:hidden;height:100%;box-shadow:0 5px 20px rgba(0,0,0,.06);transition:.3s}.level-card:hover{transform:translateY(-7px);box-shadow:0 15px 35px rgba(0,0,0,.12)}
-.level-header{padding:25px;color:white}.level-1{background:linear-gradient(135deg,#2563eb,#1d4ed8)}.level-2{background:linear-gradient(135deg,#059669,#047857)}.level-3{background:linear-gradient(135deg,#7c3aed,#6d28d9)}
-.level-4{background:linear-gradient(135deg,#ea580c,#c2410c)}.level-5{background:linear-gradient(135deg,#0891b2,#0e7490)}.level-6{background:linear-gradient(135deg,#dc2626,#b91c1c)}
-.level-7{background:linear-gradient(135deg,#374151,#111827)}.level-8{background:linear-gradient(135deg,#9333ea,#7e22ce)}.level-9{background:linear-gradient(135deg,#be123c,#881337)}
+.level-header{padding:25px;color:white}.level-1{background:linear-gradient(135deg,#0ea5e9,#0284c7)}.level-2{background:linear-gradient(135deg,#38bdf8,#0284c7)}.level-3{background:linear-gradient(135deg,#facc15,#eab308)}
+.level-4{background:linear-gradient(135deg,#38bdf8,#0ea5e9)}.level-5{background:linear-gradient(135deg,#facc15,#eab308)}.level-6{background:linear-gradient(135deg,#0ea5e9,#0284c7)}
+.level-7{background:linear-gradient(135deg,#075985,#0c4a6e)}.level-8{background:linear-gradient(135deg,#facc15,#ca8a04)}.level-9{background:linear-gradient(135deg,#38bdf8,#0284c7)}
 .level-number{font-size:14px;font-weight:700;text-transform:uppercase;opacity:.9}.level-header h3{margin-top:7px;font-weight:800}.level-body{padding:25px}
-.level-meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:15px}.badge-custom{background:#eef2ff;color:#3730a3;padding:7px 10px;border-radius:20px;font-size:13px}
-.project-box{background:#f8fafc;border-left:4px solid #2563eb;padding:12px 15px;margin-top:15px;border-radius:5px}
-.accordion-button{font-weight:700;background:#fff}.accordion-button:not(.collapsed){color:#1d4ed8;background:#eff6ff;box-shadow:none}.accordion-button:focus{box-shadow:none}
+.level-meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:15px}.badge-custom{background:#e0f2fe;color:#075985;padding:7px 10px;border-radius:20px;font-size:13px}
+.project-box{background:#f8fafc;border-left:4px solid #0ea5e9;padding:12px 15px;margin-top:15px;border-radius:5px}
+.accordion-button{font-weight:700;background:#fff}.accordion-button:not(.collapsed){color:#0369a1;background:#fef9c3;box-shadow:none}.accordion-button:focus{box-shadow:none}
 .topic-list{padding-left:20px}.topic-list li{margin-bottom:7px}.project-section{background:#111827;color:white}.project-box-dark{background:#1f2937;border-radius:15px;padding:25px;height:100%}
-.project-box-dark i{font-size:35px;color:#f59e0b}.project-box-dark h4{margin-top:15px}.evaluation-table{background:white;border-radius:15px;overflow:hidden;box-shadow:0 5px 25px rgba(0,0,0,.07)}
-.evaluation-table th{background:#111827;color:white}.cta{background:linear-gradient(135deg,#1d4ed8,#111827);color:white;padding:80px 20px}.cta h2{font-size:40px;font-weight:800}
-footer{background:#030712;color:#9ca3af;padding:35px 0}footer strong{color:white}
+.project-box-dark i{font-size:35px;color:#facc15}.project-box-dark h4{margin-top:15px}.evaluation-table{background:white;border-radius:15px;overflow:hidden;box-shadow:0 5px 25px rgba(0,0,0,.07)}
+.evaluation-table th{background:#111827;color:white}.cta{background:linear-gradient(135deg,#0284c7,#075985);color:white;padding:80px 20px}.cta h2{font-size:40px;font-weight:800}
+footer{background:#082f49;color:#9ca3af;padding:35px 0}footer strong{color:white}
 @media(max-width:768px){.hero{padding:70px 20px}.hero h1{font-size:36px}.hero p{font-size:16px}.section{padding:60px 0}.section-title{font-size:30px}.cta h2{font-size:30px}}
+</style>
+
+<style>
+:root{--sky:#0ea5e9;--sky-dark:#075985;--yellow:#facc15;--yellow-dark:#ca8a04}
+body{background:#f0f9ff}
+::selection{background:var(--yellow);color:#082f49}
 </style>
 </head>
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top"><div class="container">
 <a class="navbar-brand" href="#">Sun Computer <span> Institute</span></a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
-    <span class="navbar-toggler-icon"></span></button>
-<div class="collapse navbar-collapse" id="navbarMenu">
-    <ul class="navbar-nav ms-auto">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="navbarMenu"><ul class="navbar-nav ms-auto">
 <li class="nav-item"><a class="nav-link" href="index.html">Java</a></li>
 <li class="nav-item"><a class="nav-link" href="mern.html">MERN</a></li>
 <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-<li class="nav-item ms-lg-3"><a class="btn btn-warning fw-bold" href="#enroll">Enroll Now</a></li>
+<li class="nav-item ms-lg-3"><a class="btn btn-info fw-bold text-dark" href="#enroll">Enroll Now</a></li>
 </ul></div></div></nav>
 
 <section class="hero"><div class="container"><div class="row align-items-center"><div class="col-lg-8">
@@ -99,11 +103,11 @@ footer{background:#030712;color:#9ca3af;padding:35px 0}footer strong{color:white
 <div class="evaluation-table"><div class="table-responsive"><table class="table table-hover mb-0"><thead><tr><th>Evaluation</th><th>Marks</th></tr></thead><tbody>
 <tr><td>Coding Challenge</td><td>20</td></tr><tr><td>Practical Project</td><td>30</td></tr><tr><td>Code Review</td><td>10</td></tr><tr><td>Live Presentation</td><td>15</td></tr><tr><td>Technical Viva</td><td>15</td></tr><tr><td>Debugging Challenge</td><td>10</td></tr><tr class="fw-bold"><td>Total</td><td>100</td></tr>
 </tbody></table></div></div>
-<div class="text-center mt-4"><span class="badge bg-success fs-6 p-3">60 / 100 = LEVEL PASSED</span><p class="mt-3 text-muted">Minimum competency is also required in coding, project and viva.</p></div>
+<div class="text-center mt-4"><span class="badge bg-warning text-dark fs-6 p-3">60 / 100 = LEVEL PASSED</span><p class="mt-3 text-muted">Minimum competency is also required in coding, project and viva.</p></div>
 </div></section>
 
 <section class="section bg-light"><div class="container"><div class="row align-items-center">
-<div class="col-lg-7"><span class="badge bg-primary mb-3">FINAL CAPSTONE</span><h2 class="section-title">Build a Production-Style Python Application</h2>
+<div class="col-lg-7"><span class="badge bg-info text-dark mb-3">FINAL CAPSTONE</span><h2 class="section-title">Build a Production-Style Python Application</h2>
 <p class="text-muted">Bring everything together into one complete application with frontend, Django backend, REST APIs, MySQL, authentication, GitHub, Docker and live deployment.</p>
 <div class="row mt-4"><div class="col-md-6"><ul class="topic-list"><li>HTML / CSS / Bootstrap</li><li>JavaScript</li><li>Python</li><li>Django</li><li>Django REST Framework</li></ul></div><div class="col-md-6"><ul class="topic-list"><li>MySQL</li><li>JWT Authentication</li><li>GitHub</li><li>Docker</li><li>Live Deployment</li></ul></div></div></div>
 <div class="col-lg-5"><div class="info-card"><i class="bi bi-rocket-takeoff"></i><h4>Final Outcome</h4><p class="mt-3">A live, portfolio-ready Python full stack application you can demonstrate in interviews.</p><hr><h5 class="fw-bold">Build it. Deploy it. Present it.</h5></div></div>
